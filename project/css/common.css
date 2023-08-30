@@ -1,0 +1,120 @@
+body,
+h1,
+h2,
+h3,
+p,
+a,
+button,
+fieldset,
+legend,
+ul,
+ol,
+li{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* layout */
+.layout-header{
+    height: 80px;
+    padding: 0 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.index-h1{
+    margin: 30px;
+}
+
+.layout-footer{
+    text-align: center;
+    background-color: #eee;
+    padding:30px 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap:60px;
+}
+main{
+    flex-grow: 1;
+}
+.img{
+    margin: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px ;
+}
+.main{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+#food-name{
+    margin: 10px;
+    width: 200px;
+    height: 25px;
+}
+.search{
+    display: flex;
+    width: 40px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.GPT_answer{
+    width: 800px;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-top: 3px solid #ccc;
+}
+th{
+    border-right: 1px solid #ddd;
+    
+}
+.gpt_ingredients,
+.ingredients{
+    border-bottom: 1px solid #ddd;
+}
+
+.gpt_ingredients,
+.gpt_recipe {
+    width: 100px;
+}
+.ingredients,
+.recipe{
+    text-align: left;
+}
+
+/* 분류 */
+.food-type{
+    border: 2px solid #eee;
+    width: 800px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.type-name{
+    color: aqua;
+}
