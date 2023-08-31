@@ -36,7 +36,10 @@ a{
     color: inherit;
 }
 
-
+.menu-type{
+    font-size: 20px;
+    margin: 100px;
+}
 
 .layout-header{
     height: 80px;
