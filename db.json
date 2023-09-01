@@ -3,17 +3,51 @@
     {
       "id": 1,
       "title": "fried-rice(kimchi)",
-      "img": "./img/korean-food-fried-rice-with-kimchi-serve-with-fried-egg.jpg"
+      "img": "./img/김치볶음밥.jpg"
     },
     {
       "id": 2,
       "title": "water-gruel",
-      "img": "./img/bowl-with-yougurt-for-baby.jpg"
+      "img": "./img/죽.jpg"
     },
     {
       "id": 3,
       "title": "fried-rice(shrimp)" ,
-      "img" : "./img/american-shrimp-fried-rice-served-with-chili-fish-sauce-thai-food.jpg"
+      "img" : "./img/새우볶음밥.jpg"
+    }
+  ],
+  "soup":[
+    {
+      "id": 1,
+      "title": "fried-rice(shrimp)",
+      "img": "./김치찌개.jpg"
+    },
+    {
+      "id": 2,
+      "title": "water-gruel",
+      "img": "./img/된장국.jpg"
+    },
+    {
+      "id": 3,
+      "title": "fried-rice(shrimp)" ,
+      "img" : "./img/무국.jpg"
+    }
+  ],
+  "side-dish":[
+    {
+      "id": 1,
+      "title": "fried-rice(shrimp)",
+      "img": "./닭볶음탕.webp"
+    },
+    {
+      "id": 2,
+      "title": "water-gruel",
+      "img": "./img/제육볶음.png"
+    },
+    {
+      "id": 3,
+      "title": "fried-rice(shrimp)" ,
+      "img" : "./img/오징어볶음.jpg"
     }
   ]
 }
