@@ -62,7 +62,7 @@ table.food-type{
 /* 모바일 */
 @media screen and (min-width:320px) and (max-width:1024px){
     .layout-header{
-        width: 200px;
+        width: 320px;
     }
     .food-type{
         border: 2px solid #eee;
