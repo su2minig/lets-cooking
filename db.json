@@ -1,53 +1,119 @@
 {
-  "rice": [
+  "rice" : [
     {
       "id": 1,
-      "title": "fried-rice(kimchi)",
-      "img": "./img/김치볶음밥.jpg"
+      "title": "kimchi",
+      "name": "김치볶음밥",
+      "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EA%B9%80%EC%B9%98%EB%B3%B6%EC%9D%8C%EB%B0%A5.jpg?raw=true"
     },
     {
       "id": 2,
       "title": "water-gruel",
-      "img": "./img/죽.jpg"
+      "name": "죽",
+      "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EC%A3%BD.jpg?raw=true"
     },
     {
       "id": 3,
-      "title": "fried-rice(shrimp)" ,
-      "img" : "./img/새우볶음밥.jpg"
+      "title": "shrimp" ,
+      "name": "새우볶음밥",
+      "img" : "https://github.com/su2minig/lets-cooking/blob/main/img/%EC%83%88%EC%9A%B0%EB%B3%B6%EC%9D%8C%EB%B0%A5.jpg?raw=true"
     }
-  ],
-  "soup":[
+]
+,"soup": [
+  {
+    "id": 4,
+    "title": "kimchisoup",
+    "name": "김치찌개",
+    "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EA%B9%80%EC%B9%98%EC%B0%8C%EA%B0%9C.jpg?raw=true"
+    
+  },
+  {
+    "id": 5,
+    "title": "misosoup",
+    "name": "된장국",
+    "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EB%90%9C%EC%9E%A5%EA%B5%AD.jpg?raw=true"
+  },
+  {
+    "id": 6,
+    "title": "radishsoup" ,
+    "name": "무국",
+    "img" : "https://github.com/su2minig/lets-cooking/blob/main/img/%EB%AC%B4%EA%B5%AD.jpg?raw=true"
+  }
+],
+"sidedish":[
+  {
+    "id": 7,
+    "title": "Dakbokkeumtang",
+    "name": "닭볶음탕",
+    "img": "https://raw.githubusercontent.com/su2minig/lets-cooking/main/img/%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95.webp"
+  },
+  {
+    "id": 8,
+    "title": "jeyugbokkeum",
+    "name": "제육볶음",
+    "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C.png?raw=true"
+  },
+  {
+    "id": 9,
+    "title": "ojingeobokkeum" ,
+    "name": "오징어볶음",
+    "img" : "https://github.com/su2minig/lets-cooking/blob/main/img/%EC%98%A4%EC%A7%95%EC%96%B4%EB%B3%B6%EC%9D%8C.jpg?raw=true"
+  }]
+  ,
+"alldata":[
     {
       "id": 1,
-      "title": "fried-rice(shrimp)",
-      "img": "./김치찌개.jpg"
+      "title": "kimchi",
+      "name": "김치볶음밥",
+      "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EA%B9%80%EC%B9%98%EB%B3%B6%EC%9D%8C%EB%B0%A5.jpg?raw=true"
     },
     {
       "id": 2,
       "title": "water-gruel",
-      "img": "./img/된장국.jpg"
+      "name": "죽",
+      "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EC%A3%BD.jpg?raw=true"
     },
     {
       "id": 3,
-      "title": "fried-rice(shrimp)" ,
-      "img" : "./img/무국.jpg"
-    }
-  ],
-  "side-dish":[
-    {
-      "id": 1,
-      "title": "fried-rice(shrimp)",
-      "img": "./닭볶음탕.webp"
+      "title": "shrimp" ,
+      "name": "새우볶음밥",
+      "img" : "https://github.com/su2minig/lets-cooking/blob/main/img/%EC%83%88%EC%9A%B0%EB%B3%B6%EC%9D%8C%EB%B0%A5.jpg?raw=true"
     },
     {
-      "id": 2,
-      "title": "water-gruel",
-      "img": "./img/제육볶음.png"
+      "id": 4,
+      "title": "kimchisoup",
+      "name": "김치찌개",
+      "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EA%B9%80%EC%B9%98%EC%B0%8C%EA%B0%9C.jpg?raw=true"
+      
     },
     {
-      "id": 3,
-      "title": "fried-rice(shrimp)" ,
-      "img" : "./img/오징어볶음.jpg"
-    }
-  ]
+      "id": 5,
+      "title": "misosoup",
+      "name": "된장국",
+      "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EB%90%9C%EC%9E%A5%EA%B5%AD.jpg?raw=true"
+    },
+    {
+      "id": 6,
+      "title": "radishsoup" ,
+      "name": "무국",
+      "img" : "https://github.com/su2minig/lets-cooking/blob/main/img/%EB%AC%B4%EA%B5%AD.jpg?raw=true"
+    },
+    {
+      "id": 7,
+      "title": "Dakbokkeumtang",
+      "name": "닭볶음탕",
+      "img": "https://raw.githubusercontent.com/su2minig/lets-cooking/main/img/%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95.webp"
+    },
+    {
+      "id": 8,
+      "title": "jeyugbokkeum",
+      "name": "제육볶음",
+      "img": "https://github.com/su2minig/lets-cooking/blob/main/img/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C.png?raw=true"
+    },
+    {
+      "id": 9,
+      "title": "ojingeobokkeum" ,
+      "name": "오징어볶음",
+      "img" : "https://github.com/su2minig/lets-cooking/blob/main/img/%EC%98%A4%EC%A7%95%EC%96%B4%EB%B3%B6%EC%9D%8C.jpg?raw=true"
+    }]
 }
