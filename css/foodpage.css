@@ -5,3 +5,32 @@
 p{
     margin: 10px 0 10px 5px;
 }
+
+.GPT_answer{
+    width: 800px;
+    height: 400px;
+    /* border: 1px solid #ddd;
+    border-radius: 10px; */
+    /* border-top: 3px solid #ccc; */
+}
+.gpt_ingredients,
+.ingredients{
+    border-bottom: 1px solid #ddd;
+}
+
+.gpt_ingredients,
+.gpt_recipe {
+    width: 100px;
+}
+.ingredients,
+.recipe{
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+th{
+    font-family: 'Cafe24ClassicType-Regular';
+    border-radius: 10px;
+    border-right: 1px solid #ddd;
+    background-color: rgb(247, 232, 210);
+}

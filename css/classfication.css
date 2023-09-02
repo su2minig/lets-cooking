@@ -4,15 +4,7 @@ img{
     height: 200px;
 }
 
-form.input{
-    justify-content: center;
-    margin-bottom: 20px;
-}
-#food-search{
-    height: 28px;
-    border: 3px solid #ddd;
-    border-radius: 10px;
-}
+
 table.food-type{
     margin: 10px;
 }

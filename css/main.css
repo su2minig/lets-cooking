@@ -1,0 +1,62 @@
+.input{
+    /* margin-left: 30px; */
+    display: flex;
+    align-items: center;
+    
+}
+
+#food-name{
+    margin: 10px;
+    width: 300px;
+    height: 60px;
+    border-radius: 15px 15px 15px 0;
+    border: 3px solid rgba(236, 215, 26, 0.877);
+    text-align: center;
+}
+.search{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.gptsearch{
+    width: 80px;
+    height: 80px;
+}
+
+.search:hover{
+    background-color: gray;
+}
+
+.GPT_answer{
+    width: 1000px;
+    height: 600px;
+}
+th{
+    font-family: 'Cafe24ClassicType-Regular';
+    border-radius: 10px;
+    border-right: 1px solid #ddd;
+    background-color: rgb(247, 232, 210);
+}
+.gpt_ingredients,
+.ingredients{
+    border-bottom: 1px solid #ddd;
+}
+
+.gpt_ingredients,
+.gpt_recipe {
+    width: 100px;
+}
+.ingredients,
+.recipe{
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+td p {
+    margin: 10px;
+}
+
