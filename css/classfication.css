@@ -47,3 +47,14 @@ table.food-type{
     display: flex;
     justify-content: center;
 }
+
+#food{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.menulist{
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
