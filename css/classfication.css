@@ -28,20 +28,20 @@ table.food-type{
     border-right: 1px solid #ddd;
     background-color: rgb(247, 232, 210);
 }
-.food-rice{
+
+
+/* .food-rice{
     display: flex;
     justify-content: center;
-}
-
-
-.rice-shrimp,
+} */
+/* .rice-shrimp,
 .rice-kimchi,
 .water-gruel{
     display: flex;
     width: 200px;
     height: 250px;
     margin: 20px;
-}
+} */
 
 .menu-name{
     display: flex;
@@ -57,4 +57,20 @@ table.food-type{
     margin: 20px;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+/* 모바일 */
+@media screen and (min-width:320px) and (max-width:1024px){
+    .layout-header{
+        width: 200px;
+    }
+    .food-type{
+        border: 2px solid #eee;
+        width: 300px;
+        height: 60px;
+        text-align: center;
+        justify-content: flex-start;
+        display: flex;
+    }
+    
 }

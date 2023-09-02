@@ -60,3 +60,22 @@ td p {
     margin: 10px;
 }
 
+/* 모바일 */
+@media screen and (min-width:320px) and (max-width:1024px){
+    #food-name{
+        height: 50px;
+        width: 270px;
+    }
+    .gptsearch{
+        width: 50px;
+        height: 50px;
+    }
+    .GPT_answer{
+        min-width: 320px;
+        max-width: 1024px;
+        min-height: 250px;
+    }
+    .input{
+        min-width: 200px;
+    }
+}

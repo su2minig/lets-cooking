@@ -90,6 +90,33 @@ main{
     margin: auto;
 }
 
-@media screen and (min-width:512px) and (max-width:1024px){
+/* 모바일 */
+@media screen and (min-width:320px) and (max-width:1024px){
+    body{
+        min-width: 320px;
+        max-width: 1024px;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .main{
+        min-width: 320px;
+        max-width: 1024px;
+    }
+
+    .menu-type{
+        font-size: 20px;
+        margin: 0px;
+    }
+    .main_form{
+        display: flex;
+        justify-content: flex-start;
+        width: 200px;
+    }
+    .img{
+        width: 70px;
+        height: 70px;
+        margin: 20px;
+    }
     
 }

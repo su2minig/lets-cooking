@@ -34,3 +34,7 @@ th{
     border-right: 1px solid #ddd;
     background-color: rgb(247, 232, 210);
 }
+/* 모바일 */
+@media screen and (min-width:320px) and (max-width:1024px){
+    
+}
