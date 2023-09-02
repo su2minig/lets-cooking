@@ -17,12 +17,11 @@ table.food-type{
     display: inline-block;
 }
 
-.type-name{
-    color: aqua;
-}
 
-.type,
-.type-name {
+.type-rice,
+.type-soup,
+.type-sidedish,
+.type-all {
     width: 200px;
     height: 50px;
     border-radius: 10px;
