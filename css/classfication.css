@@ -66,7 +66,7 @@ table.food-type{
     }
     .food-type{
         border: 2px solid #eee;
-        width: 300px;
+        width: 320px;
         height: 60px;
         text-align: center;
         justify-content: flex-start;

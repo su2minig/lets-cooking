@@ -117,4 +117,7 @@ main{
         height: 40px;
         margin: 10px;
     }
+    .layout-footer{
+        width: 350px;
+    }
 }
