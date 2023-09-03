@@ -76,7 +76,7 @@ main{
 }
 .main_form{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .img{
     margin: 20px;

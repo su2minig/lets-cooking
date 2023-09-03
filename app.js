@@ -20,29 +20,31 @@ return $product
 
 
 // 클릭이벤트
-const Allmenu = document.querySelector(".type-all");
+const Allmenu = document.querySelector(".food-type");
 Allmenu.addEventListener('click',allmenu);
 
 // ------------
 
 
 function allmenu(){
+    let dv = event.target;
+    mainContainer.innerHTML = ""
+    console.log("ddd",dv.id);
     const foodContainer = document.createElement("div");
     foodContainer.id = "food"
     mainContainer.appendChild(foodContainer);
-    fetch(BASE_URL+"alldata").then((res)=>{
+    fetch(BASE_URL+dv.id).then((res)=>{
         return res.json();
     }).then((json)=>{
         json.forEach(alldata =>{
-            // foodContainer.innerHTML = ""
+            
+            console.log("gggg",foodContainer);
             const imgurl = alldata.img;
             const foodtitle = alldata.title;
             const foodname = alldata.name;
             const $product = createmenu(imgurl,foodtitle,foodname);
             foodContainer.appendChild($product);
-            console.log(foodContainer);
         }
         )}
     )
 }
-
