@@ -27,21 +27,20 @@ Allmenu.addEventListener('click',allmenu);
 
 
 function allmenu(){
-    let dv = event.target;
+    
+    let data = event.target;
+    console.log(data.id);
     mainContainer.innerHTML = ""
-    console.log("ddd",dv.id);
     const foodContainer = document.createElement("div");
     foodContainer.id = "food"
     mainContainer.appendChild(foodContainer);
-    fetch(BASE_URL+dv.id).then((res)=>{
+    fetch(BASE_URL+data.id).then((res)=>{
         return res.json();
-    }).then((json)=>{
-        json.forEach(alldata =>{
-            
-            console.log("gggg",foodContainer);
-            const imgurl = alldata.img;
-            const foodtitle = alldata.title;
-            const foodname = alldata.name;
+    }).then((data)=>{
+        data.forEach(info =>{
+            const imgurl = info.img;
+            const foodtitle = info.title;
+            const foodname = info.name;
             const $product = createmenu(imgurl,foodtitle,foodname);
             foodContainer.appendChild($product);
         }
