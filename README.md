@@ -19,5 +19,5 @@ ___________________
 ## UI
 
 <p align="center">
-  <img src="![main](https://github.com/su2minig/lets-cooking/assets/141402694/53a14115-1787-475b-9395-093b7ca8ec1c)">
+  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/53a14115-1787-475b-9395-093b7ca8ec1c">
 </p>
