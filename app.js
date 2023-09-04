@@ -6,9 +6,11 @@ function createmenu(imgurl, foodtitle, foodname){
 const $product = document.createElement("a")
 const img = document.createElement("img");
 const name = document.createElement("div");
-$product.setAttribute('href' ,'https://su2minig.github.io/lets-cooking/'+foodtitle+'.html')
-$product.setAttribute('target', '_blank')
-$product.setAttribute('class', 'menulist')
+img.setAttribute('class', 'foodimg');
+name.setAttribute('class', 'name');
+$product.setAttribute('href' ,'https://su2minig.github.io/lets-cooking/'+foodtitle+'.html');
+$product.setAttribute('target', '_blank');
+$product.setAttribute('class', 'menulist');
 console.log(foodname);
 name.innerText = foodname;
 img.src =imgurl;
