@@ -34,6 +34,8 @@
 .GPT_answer{
     width: 1000px;
     height: 600px;
+    background-color: white;
+    border-radius: 10px;
 }
 th{
     font-family: 'Cafe24ClassicType-Regular';
