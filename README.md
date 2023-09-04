@@ -18,8 +18,8 @@ _____________________
 ___________________
 ## UI
 
-<p align="center">
-  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/53a14115-1787-475b-9395-093b7ca8ec1c">
+<p>
+  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/53a14115-1787-475b-9395-093b7ca8ec1c" width="300px" height="300px">
 </p>
 
 
