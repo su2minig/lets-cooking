@@ -62,8 +62,6 @@
                 "role": "user",
                 "content": contents
             })
-            // $input.value = ''
-
             ingredientsGPT()
         })
 
@@ -79,9 +77,7 @@
             .then(res => res.json())
             .then(res => {
                 console.log(res)
-                
                 $ingredients.innerHTML = `<p>${res.choices[0].message.content}</p>`.replaceAll('\n','<br>')
-                
             })
         }
 
@@ -102,7 +98,6 @@
                 "content": contents
             })
             $input.value = ''
-
             recipeGPT()
         })
 
