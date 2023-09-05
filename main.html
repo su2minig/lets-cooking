@@ -46,8 +46,6 @@
         const $recipe = document.querySelector('.recipe')
         const $ingredients = document.querySelector('.ingredients')
 
-
-
         const ingredients_data = []
         ingredients_data.push({
             "role": "system",
@@ -56,6 +54,14 @@
 
         const url1 = `https://estsoft-openai-api.jejucodingcamp.workers.dev/` 
 
+        const recipe_data = []
+        recipe_data.push({
+            "role": "system",
+            "content": "assistant는 요리의 조리법을 알려주는 요리사다. 조리법은 순서대로 알려줘"
+        })
+
+        const url2 = `https://estsoft-openai-api.jejucodingcamp.workers.dev/` 
+
         $button.addEventListener('click', e =>{
             e.preventDefault() 
             const contents = $input.value
@@ -63,7 +69,16 @@
                 "role": "user",
                 "content": contents
             })
+            recipe_data.push({
+                "role": "user",
+                "content": contents
+            })
+            console.log(ingredients_data,recipe_data);
+            $input.value = ''
             ingredientsGPT()
+            recipeGPT()
+            ingredients_data.splice(1,1);
+            recipe_data.splice(1,1) ;
         })
 
         function ingredientsGPT(){
@@ -81,26 +96,6 @@
                 $ingredients.innerHTML = `<p>${res.choices[0].message.content}</p>`.replaceAll('\n','<br>')
             })
         }
-
-
-        const recipe_data = []
-        recipe_data.push({
-            "role": "system",
-            "content": "assistant는 요리의 조리법만 알려주는 요리사다.재료는 알려주지마"
-        })
-
-        const url2 = `https://estsoft-openai-api.jejucodingcamp.workers.dev/` 
-
-        $button.addEventListener('click', e =>{
-            e.preventDefault() 
-            const contents = $input.value
-            recipe_data.push({
-                "role": "user",
-                "content": contents
-            })
-            $input.value = ''
-            recipeGPT()
-        })
 
         function recipeGPT(){
             fetch(url2,{

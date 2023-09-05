@@ -30,7 +30,7 @@ Allmenu.addEventListener('click',allmenu);
 
 function allmenu(){
     
-    let data = event.target;
+    const data = event.target;
     console.log(data.id);
     mainContainer.innerHTML = ""
     const foodContainer = document.createElement("div");
