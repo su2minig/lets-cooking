@@ -8,116 +8,111 @@
     <title></title>
 </head>
 <body>
-    <div class="backgroundimg">
-        <header class="layout-header">
-            
-            <h1 class="index-h1"><a href="./main.html">Let's cooking</a></h1>
-            <div>
-                <a class="menu-type" href="./recipe.html" style="font-weight: bold; font-family: 'Cafe24ClassicType-Regular';">recipe</a>
-            </div>
-        </header>
-            <main class="main">
-                
-                <form class="main_form">
-                    <img class="img" src="https://cdn.pixabay.com/photo/2017/07/18/17/16/black-2516434_1280.jpg"></img>
-                    <div class="input">
-                        <input id="food-name" name="food-name" type="text" placeholder="만들고 싶은 요리를 적어주세요" required />
-                        <button class="search" type="submit" ><img class="gptsearch" src="./img/검색.png" alt="검색"></button>
-                    </div>
-        
-                </form>
-                <table class="GPT_answer">
-                    <tbody class="GPT-tbody">
-                        <tr>
-                            <th class="gpt_ingredients">재료</th>
-                            <td class="ingredients"></td>
-                            
-                        </tr>
-                        <tr>
-                            <th class="gpt_recipe">레시피</th>
-                            <td class="recipe"></td>
-                        </tr>
-                    </tbody>
-                </table>
+  <header class="layout-header">
+    <h1 class="index-h1"><a href="./main.html">Let's cooking</a></h1>
+    
+    <div>
+      <a class="menu-type" href="./recipe.html" style="font-weight: bold; font-family: 'Cafe24ClassicType-Regular';">recipe</a>
     </div>
+  </header>
+  <main class="main">
+    
+    <form class="main_form">
+      <img class="img" src="https://cdn.pixabay.com/photo/2017/07/18/17/16/black-2516434_1280.jpg"></img>
+      <div class="input">
+        <input id="food-name" name="food-name" type="text" placeholder="만들고 싶은 요리를 적어주세요" required />
+        <button class="search" type="submit" ><img class="gptsearch" src="./img/검색.png" alt="검색"></button>
+      </div>
+    </form>
+    <table class="GPT_answer">
+      <tbody class="GPT-tbody">
+        <tr>
+          <th class="gpt_ingredients">재료</th>
+          <td class="ingredients"></td>
+        </tr>
+        <tr>
+          <th class="gpt_recipe">레시피</th>
+          <td class="recipe"></td>
+        </tr>
+      </tbody>
+    </table>
     <script>
-        const $input = document.querySelector('input')
-        const $button = document.querySelector('button')
-        const $recipe = document.querySelector('.recipe')
-        const $ingredients = document.querySelector('.ingredients')
-
-        const ingredients_data = []
+      const $input = document.querySelector('input')
+      const $button = document.querySelector('button')
+      const $recipe = document.querySelector('.recipe')
+      const $ingredients = document.querySelector('.ingredients')
+      
+      const ingredients_data = []
+      ingredients_data.push({
+        "role": "system",
+        "content": "assistant는 요리에 필요한 재료를 알려주는 요리사다.재료는 종류:수량으로 알려줘"
+      })
+      
+      const url1 = `https://estsoft-openai-api.jejucodingcamp.workers.dev/` 
+      
+      const recipe_data = []
+      recipe_data.push({
+        "role": "system",
+        "content": "assistant는 요리의 조리법을 알려주는 요리사다. 조리법은 순서대로 알려줘"
+      })
+      
+      const url2 = `https://estsoft-openai-api.jejucodingcamp.workers.dev/` 
+      
+      $button.addEventListener('click', e =>{
+        e.preventDefault() 
+        const contents = $input.value
         ingredients_data.push({
-            "role": "system",
-            "content": "assistant는 요리에 필요한 재료를 알려주는 요리사다.재료는 종류:수량으로 알려줘"
+          "role": "user",
+          "content": contents
         })
-
-        const url1 = `https://estsoft-openai-api.jejucodingcamp.workers.dev/` 
-
-        const recipe_data = []
         recipe_data.push({
-            "role": "system",
-            "content": "assistant는 요리의 조리법을 알려주는 요리사다. 조리법은 순서대로 알려줘"
+          "role": "user",
+          "content": contents
         })
-
-        const url2 = `https://estsoft-openai-api.jejucodingcamp.workers.dev/` 
-
-        $button.addEventListener('click', e =>{
-            e.preventDefault() 
-            const contents = $input.value
-            ingredients_data.push({
-                "role": "user",
-                "content": contents
-            })
-            recipe_data.push({
-                "role": "user",
-                "content": contents
-            })
-            console.log(ingredients_data,recipe_data);
-            $input.value = ''
-            ingredientsGPT()
-            recipeGPT()
-            ingredients_data.splice(1,1);
-            recipe_data.splice(1,1) ;
+        $input.value = ''
+        ingredientsGPT()
+        recipeGPT()
+        ingredients_data.splice(1,1);
+        recipe_data.splice(1,1) ;
+      })
+      
+      function ingredientsGPT(){
+        fetch(url1,{
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(ingredients_data),
+          redirect: 'follow'
         })
-
-        function ingredientsGPT(){
-            fetch(url1,{
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(ingredients_data),
-                redirect: 'follow'
-            })
-            .then(res => res.json())
-            .then(res => {
-                console.log(res)
-                $ingredients.innerHTML = `<p>${res.choices[0].message.content}</p>`.replaceAll('\n','<br>')
-            })
-        }
-
-        function recipeGPT(){
-            fetch(url2,{
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(recipe_data),
-                redirect: 'follow'
-            })
-            .then(res => res.json())
-            .then(res => {
-                console.log(res)
-                $recipe.innerHTML = `<p>${res.choices[0].message.content}</p>`.replaceAll('\n','<br>')
-                
-            })
-        }
-        </script>
+        .then(res => res.json())
+        .then(res => {
+          console.log(res)
+          $ingredients.innerHTML = `<p>${res.choices[0].message.content}</p>`.replaceAll('\n','<br>')
+        })
+      }
+      
+      function recipeGPT(){
+        fetch(url2,{
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(recipe_data),
+          redirect: 'follow'
+        })
+        .then(res => res.json())
+        .then(res => {
+          console.log(res)
+          $recipe.innerHTML = `<p>${res.choices[0].message.content}</p>`.replaceAll('\n','<br>')
+          
+        })
+      }
+      </script>
         
-    </main>
-    <footer class="layout-footer">
+      </main>
+      <footer class="layout-footer">
         Copyright 2023. su rights reserved.
-    </footer>
-</body>
-</html>
+      </footer>
+    </body>
+    </html>
