@@ -29,7 +29,7 @@ ___________________
 <p>
   <img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00">
 </p>
-#### let's cooking와 recipe : 각각 클릭시 메인페이징와 recipe페이지로 이동
+#### let's cooking와 recipe : 각각 클릭시 메인페이징와 recipe페이지로 이동<br>
 #### gpt요리사 : 입력창에 요리이름 입력후 돋보기이미지 클릭 또는 엔터시 chatgpt api를 사용해 gpt에게 재료와 조리법에 대한 답을 각각 재료와 조리법칸에 표시
 
 ### 리스트 페이지
