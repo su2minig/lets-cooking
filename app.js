@@ -8,7 +8,7 @@ const img = document.createElement("img");
 const name = document.createElement("div");
 img.setAttribute('class', 'foodimg');
 name.setAttribute('class', 'name');
-$product.setAttribute('href' ,'https://su2minig.github.io/lets-cooking/blob/main/'+foodtitle+'.html');
+$product.setAttribute('href' ,'https://su2minig.github.io/lets-cooking/'+foodtitle+'.html');
 $product.setAttribute('target', '_blank');
 $product.setAttribute('class', 'menulist');
 console.log(foodname);
