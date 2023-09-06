@@ -8,13 +8,57 @@
 
 
 
-## 프로젝트 기간
+## 프로젝트 기간 및 구조
 
 > 23.08.29~23.09.06
 
 <p>
   <img src="https://github.com/su2minig/lets-cooking/assets/141402694/b78b9f12-950e-46aa-bfe9-0352e7be6ebf" width="600px" height="300px">
 </p>
+
+```
+│  app.js
+│  db.json
+│  index.html
+│  package.json
+│
+├─.vscode
+│      settings.json
+│
+├─css
+│      common.css
+│      foodpage.css
+│      main.css
+│      recipe.css
+│
+├─img
+│      backimg.jpg
+│      table.jpg
+│      검색.png
+│      김치볶음밥.jpg
+│      김치찌개.jpg
+│      닭볶음탕.webp
+│      된장국.jpg
+│      무국.jpg
+│      새우볶음밥.jpg
+│      오징어볶음.jpg
+│      제육볶음.png
+│      죽.jpg
+│
+└─recipe
+    │  list.html
+    │
+    └─page
+            Dakbokkeumtang.html
+            jeyugbokkeum.html
+            kimchi.html
+            kimchisoup.html
+            misosoup.html
+            ojingeobokkeum.html
+            radishsoup.html
+            shrimp.html
+            water-gruel.html
+```
 
 
 ## 개발 환경 및 배포
