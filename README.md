@@ -40,8 +40,8 @@
 ## UI
 
 <table>
-<tr>메인페이지</tr>
-<tr?<p align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00" width="600px" height="300px"></p></table>
+<tr><td>메인페이지</td></tr>
+<tr?<td><p align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00" width="600px" height="300px"></td></td></p></table>
 </table>
 
 <p align="center">
