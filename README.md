@@ -20,7 +20,7 @@ _____________________
 
 ## 개발 환경 및 배포
   
-  >2-1 개발 환경 : html, css , js
+  >2-1 개발 환경 : html, css , js  
   >2-2 배포 url : https://su2minig.github.io/lets-cooking/index.html
 ___________________
 
