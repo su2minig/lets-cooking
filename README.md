@@ -20,7 +20,7 @@
 > 기간 23.08.29~23.09.06
 
 <p>
-  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/b78b9f12-950e-46aa-bfe9-0352e7be6ebf" width="600px" height="300px">
+  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/b78b9f12-950e-46aa-bfe9-0352e7be6ebf">
 </p>
 
 ```
@@ -95,16 +95,16 @@
 
 |메인페이지|
 |------|
-|<img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00" width="600px" height="300px">|
+|<img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00">|
 
 | 리스트 페이지 |
 |---|
-| <img src="https://github.com/su2minig/lets-cooking/assets/141402694/5cd2bed9-a543-4e51-8abb-3dd8b195d365" width="600px" height="300px"> |
-| <img src="https://github.com/su2minig/lets-cooking/assets/141402694/14bae50c-767e-48e8-b7b3-47759de14ac6" width="600px" height="300px"> |
+| <img src="https://github.com/su2minig/lets-cooking/assets/141402694/5cd2bed9-a543-4e51-8abb-3dd8b195d365"> |
+| <img src="https://github.com/su2minig/lets-cooking/assets/141402694/14bae50c-767e-48e8-b7b3-47759de14ac6"> |
 
 | 레시피 페이지 |
 |---|
-|<img src="https://github.com/su2minig/lets-cooking/assets/141402694/e0967a2f-adea-40c6-aa3e-419ed7c4ef99" width="600px" height="300px">|
+|<img src="https://github.com/su2minig/lets-cooking/assets/141402694/e0967a2f-adea-40c6-aa3e-419ed7c4ef99">|
 
 ## 구현 기능
 
@@ -114,15 +114,15 @@
 
 |  chatgpt요리사  |
 |---|
-|  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/d5e9b6e8-194e-4534-ae26-c4243c1ef7d5" width="600px" height="300px">  |
+|  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/d5e9b6e8-194e-4534-ae26-c4243c1ef7d5">  |
 
 |  음식리스트페이지  |
 |---|
-|  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/e99acd8c-6e6c-4b22-ab11-437201d2ee04" width="600px" height="300px">  |
+|  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/e99acd8c-6e6c-4b22-ab11-437201d2ee04">  |
 
 |  레시피페이지  |
 |---|
-|  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/57c92f9f-b684-4d5d-b06d-d6a5e51037eb" width="600px" height="300px">  |
+|  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/57c92f9f-b684-4d5d-b06d-d6a5e51037eb">  |
 
 ## 개발하며
 
