@@ -105,6 +105,10 @@
 
 ## 구현 기능
 
+| 페이지이동 |
+|---|
+| <img src="https://github.com/su2minig/lets-cooking/assets/141402694/8e5a46d3-0c4b-41f1-8d3f-e6a75a824915"> |
+
 |  chatgpt요리사  |
 |---|
 |  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/d5e9b6e8-194e-4534-ae26-c4243c1ef7d5" width="600px" height="300px">  |
