@@ -107,7 +107,7 @@
 
 | 페이지이동 |
 |---|
-| <img src="https://github.com/su2minig/lets-cooking/assets/141402694/8e5a46d3-0c4b-41f1-8d3f-e6a75a824915"> |
+| <img src="https://github.com/su2minig/lets-cooking/assets/141402694/9333239d-791e-4130-8b4d-edc6d28d6b1a"> |
 
 |  chatgpt요리사  |
 |---|
