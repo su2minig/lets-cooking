@@ -20,8 +20,16 @@ _____________________
 
 ## 개발 환경 및 배포
   
-  >2-1 개발 환경 : html, css , js  
-  >2-2 배포 url : https://su2minig.github.io/lets-cooking/index.html
+  >2-1 개발 환경 :
+>
+|------|---|
+| 버전 관리 시스템 |  |
+| 개발 언어 및 프레임워크 | 1.HTML & CSS 2.Javascript|
+| 웹 서버 환경 | github |
+
+>2-2 배포 url : https://su2minig.github.io/lets-cooking/index.html
+  
+  
 ___________________
 
 ## 기능
