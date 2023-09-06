@@ -39,26 +39,30 @@
 
 ## UI
 
-
 |메인페이지|
 |------|
-
 |<p align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00" width="600px" height="300px"></p>|
 
 
-### 리스트 페이지
 
-<p align="center">
+
+| 리스트 페이지 |
+|---|
+| <p align="center">
   <img src="https://github.com/su2minig/lets-cooking/assets/141402694/5cd2bed9-a543-4e51-8abb-3dd8b195d365" width="600px" height="300px">
-</p>
-<p align="center">
+</p> |
+|  <p align="center">
   <img src="https://github.com/su2minig/lets-cooking/assets/141402694/14bae50c-767e-48e8-b7b3-47759de14ac6" width="600px" height="300px">
-</p>
+</p>  |
+
+
 
 
 ### 레시피 페이지
 
-
+| d |
+|---|
+| d |
 <p align="center">
   <img src="https://github.com/su2minig/lets-cooking/assets/141402694/e0967a2f-adea-40c6-aa3e-419ed7c4ef99" width="600px" height="300px">
 </p>
