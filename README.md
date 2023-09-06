@@ -33,6 +33,13 @@ ___________________
 - gpt요리사 : 입력창에 요리이름 입력후 돋보기이미지 클릭 또는 엔터시 chatgpt api를 사용해 gpt에게 재료와 조리법에 대한 답을 각각 재료와 조리법칸에 표시
 
 ### 리스트 페이지
+
+| 메인페이지 | 레시피리스트사이트 |   |   |   |
+|------|---|---|---|---|
+| <p align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/5cd2bed9-a543-4e51-8abb-3dd8b195d365" width="300px" height="260px"></p> | <p align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/14bae50c-767e-48e8-b7b3-47759de14ac6" width="300px" height="260px"></p> |   |   |   |
+| s    | s |   |   |   |
+| s    | s |   |   |   |
+
 <p align="center">
   <img src="https://github.com/su2minig/lets-cooking/assets/141402694/5cd2bed9-a543-4e51-8abb-3dd8b195d365" width="300px" height="260px">
 </p>
