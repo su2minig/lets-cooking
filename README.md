@@ -79,6 +79,9 @@
 
 ## 기능
 
+<p text-align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/b5e417d7-4c96-412c-9007-2cd14ac5022f"></p>
+출처 : https://www.mindmeister.com/ko
+
 * ### chatgpt 요리사
   *   chatgpt api 연동으로 입력한 요리의 재료와 조리법 표시
 
