@@ -96,4 +96,20 @@
 |---|
 | <p align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/e0967a2f-adea-40c6-aa3e-419ed7c4ef99" width="600px" height="300px"></p> |
 
+## 구현 기능
+
+|  chatgpt요리사  |
+|---|
+|  <p align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/66f1bbb6-9ec1-4d78-8c14-a44d954170c1"</p>  |
+
+|  음식리스트페이지  |
+|---|
+|  <p align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/57c92f9f-b684-4d5d-b06d-d6a5e51037eb"</p>  |
+
+|  레시피페이지  |
+|---|
+|  <p align="center"><img src="https://github.com/su2minig/lets-cooking/assets/141402694/d5e9b6e8-194e-4534-ae26-c4243c1ef7d5"</p>  |
+
+
+
 
