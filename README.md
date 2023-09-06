@@ -1,10 +1,10 @@
 # Lets-cooking
 _______________________
-<p align="center">
-  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00" width="600px" height="300px">
-</p>
+
 :question: Let's cooking 사이트는 조리법을 모르는 사용자를 위한 사이트입니다.
+
 :fork_and_knife: 사용자가 만들고싶은 요리의 재료와 조리법을 chatgpt요리사에게 물어보세요!
+
 :eyes: 리스트페이지에서 분류별로 음식사진을 볼 수 있습니다. 무엇을 만들지 고민이시라면 리스트페이지를 이용해주세요!
 
 _____________________
