@@ -1,4 +1,4 @@
-9# Lets-cooking
+# Lets-cooking
 
 :question: Let's cooking 사이트는 조리법을 모르는 사용자를 위한 사이트입니다.
 
