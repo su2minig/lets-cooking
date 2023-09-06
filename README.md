@@ -14,7 +14,7 @@ _____________________
 23.08.29~23.09.06
 
 <p>
-  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/b78b9f12-950e-46aa-bfe9-0352e7be6ebf" width="400px" height="300px">
+  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/b78b9f12-950e-46aa-bfe9-0352e7be6ebf" width="600px" height="300px">
 </p>
 _____________________
 ## 개발 환경 및 배포
