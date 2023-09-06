@@ -123,4 +123,12 @@ main{
     .layout-footer{
         width: 350px;
     }
+    .index-h1{
+        margin: 10px;
+        font-size: 28px;
+    }
+    .layout-header{
+        width: 320px;
+        
+    }
 }

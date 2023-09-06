@@ -77,8 +77,10 @@ td p {
         width: 80px;
     }
     .GPT_answer{
-        max-width: 320px;
-        min-height: 100px;
+        max-width: 300px;
+        max-height: 400px;
+        margin-top: 20px;
+        margin-left: 20px;
     }
     .input{
         min-width: 200px;

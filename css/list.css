@@ -1,0 +1,77 @@
+/* 분류 */
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+table.food-type{
+    margin: 10px;
+}
+.food-type{
+    border: 2px solid #eee;
+    width: 800px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+.type-rice,
+.type-soup,
+.type-sidedish,
+.type-all {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgb(247, 232, 210);
+    font-weight: bold;
+}
+
+.menu-name{
+    display: flex;
+    justify-content: center;
+}
+
+#food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menulist{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div .name{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.main{
+    background-color: antiquewhite;
+    width: 820px;
+    border-radius: 10px;
+}
+/* 모바일 */
+@media screen and (min-width:320px) and (max-width:1024px){
+    .layout-header{
+        width: 320px;
+    }
+    .food-type{
+        border: 2px solid #eee;
+        width: 300px;
+        height: 60px;
+        text-align: center;
+        justify-content: flex-start;
+        display: flex;
+    }
+    .main{
+        margin-left: 15px;
+    }
+}
