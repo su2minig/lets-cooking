@@ -26,8 +26,8 @@ ___________________
 ## UI
 ### 메인 페이지
 
-<p>
-  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00" "600px" height="300px">
+<p align="center">
+  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00" width="600px" height="300px">
 </p>
 - let's cooking와 recipe : 각각 클릭시 메인페이징와 recipe페이지로 이동<br>
 - gpt요리사 : 입력창에 요리이름 입력후 돋보기이미지 클릭 또는 엔터시 chatgpt api를 사용해 gpt에게 재료와 조리법에 대한 답을 각각 재료와 조리법칸에 표시
@@ -38,13 +38,13 @@ ___________________
   <img src="https://github.com/su2minig/lets-cooking/assets/141402694/5cd2bed9-a543-4e51-8abb-3dd8b195d365" width="600px" height="300px">
 </p>
 <p align="center">
-  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/14bae50c-767e-48e8-b7b3-47759de14ac6" "600px" height="300px">
+  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/14bae50c-767e-48e8-b7b3-47759de14ac6" width="600px" height="300px">
 </p>
 - 카테고리 : 클릭한 카테고리에 따라 해당 카테고리의 요리의 사진과 이름 표시 
 
 ### 레시피 페이지
 
 <p align="center">
-  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/e0967a2f-adea-40c6-aa3e-419ed7c4ef99" "600px" height="300px">
+  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/e0967a2f-adea-40c6-aa3e-419ed7c4ef99" width="600px" height="300px">
 </p>
 - 레시피 : 리스트 페이지에서 사진과 이름 클릭시 해당 요리 레시피 페이지 새창으로 오픈
