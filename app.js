@@ -11,7 +11,6 @@ name.setAttribute('class', 'name');
 $product.setAttribute('href' ,'https://su2minig.github.io/lets-cooking/'+foodtitle+'.html');
 $product.setAttribute('target', '_blank');
 $product.setAttribute('class', 'menulist');
-console.log(foodname);
 name.innerText = foodname;
 img.src =imgurl;
 $product.append(img, name);
@@ -19,13 +18,8 @@ $product.append(img, name);
 return $product
 }
 
-
-
-// 클릭이벤트
 const Allmenu = document.querySelector(".food-type");
 Allmenu.addEventListener('click',allmenu);
-
-// ------------
 
 
 function allmenu(){
