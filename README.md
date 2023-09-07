@@ -68,10 +68,10 @@
 ```
 
 
-## 개발 환경 및 배포
+## 사용 기술 및 배포
   
-  >2-1 개발 환경 :
-> Html , Css , Javascript
+  >2-1 사용 기술 :
+> HTML , CSS , JavaScript
 
 >2-2 배포 url : https://su2minig.github.io/lets-cooking/index.html
   
