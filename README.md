@@ -56,7 +56,7 @@
     │  list.html
     │
     └─page
-            Dakbokkeumtang.html
+            dakbokkeumtang.html
             jeyugbokkeum.html
             kimchi.html
             kimchisoup.html
