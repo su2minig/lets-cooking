@@ -13,7 +13,7 @@
   * [기능](#기능)
   * [UI](#UI)
   * [구현 기능](#구현-기능)
-  * [개발하며..](#개발하며)
+  * [개발하며](#개발하며)
 
 ## 프로젝트 일정 및 구조
 
@@ -24,35 +24,36 @@
 </p>
 
 ```
-│  menu.js
-│  db.json
-│  index.html
-│  package.json
-│
-├─css
-│      common.css
-│      foodpage.css
-│      main.css
-│      recipe.css
-│
-├─img
-│      backimg.jpg
-│      table.jpg
-│      검색.png
-│      김치볶음밥.jpg
-│      김치찌개.jpg
-│      닭볶음탕.webp
-│      된장국.jpg
-│      무국.jpg
-│      새우볶음밥.jpg
-│      오징어볶음.jpg
-│      제육볶음.png
-│      죽.jpg
-│
-└─recipe
-    │  list.html
-    │
-    └─page
+lets-cooking
+  │  menu.js
+  │  db.json
+  │  index.html
+  │  package.json
+  │
+  ├─css
+  │      common.css
+  │      foodpage.css
+  │      main.css
+  │      recipe.css
+  │
+  ├─img
+  │      backimg.jpg
+  │      table.jpg
+  │      검색.png
+  │      김치볶음밥.jpg
+  │      김치찌개.jpg
+  │      닭볶음탕.webp
+  │      된장국.jpg
+  │      무국.jpg
+  │      새우볶음밥.jpg
+  │      오징어볶음.jpg
+  │      제육볶음.png
+  │      죽.jpg
+  │
+  └─recipe
+      │  list.html
+      │
+      └─page
             dakbokkeumtang.html
             jeyugbokkeum.html
             kimchi.html
@@ -133,6 +134,6 @@
   * 문제가 발생하면 발생 이유를 보고 왜 이러한 상황이 발생했는지 생각을 하지않고 그저 문제가 발생한 부분의 코드만 본탓에 문제수정에 시간이 너무 많이 들어갔다.
 
 * 교훈
-  * 모든 일은 계획부터 확실하게..
+  * 모든 일은 계획부터 확실하게
   * 잘 안될때에는 휴식하며 리프레쉬!
   * 문제가 발생하면 발생한 상황과 이유를 꼼꼼하게 분석하자
