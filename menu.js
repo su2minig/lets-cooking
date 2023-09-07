@@ -1,6 +1,6 @@
 
 const mainContainer = document.getElementById("menu-list");
-BASE_URL ="http://localhost:3000/"
+BASE_URL ="https://my-json-server.typicode.com/su2minig/lets-cooking/"
 
 function createmenu(imgurl, foodtitle, foodname){
 const $product = document.createElement("a")
@@ -33,6 +33,7 @@ function allmenu(){
     fetch(BASE_URL+data.id).then((res)=>{
         return res.json();
     }).then((data)=>{
+        console.log(data)
         data.forEach(info =>{
             const imgurl = info.img;
             const foodtitle = info.title;
