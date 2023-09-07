@@ -29,9 +29,6 @@
 │  index.html
 │  package.json
 │
-├─.vscode
-│      settings.json
-│
 ├─css
 │      common.css
 │      foodpage.css
