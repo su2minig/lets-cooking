@@ -24,7 +24,7 @@
 </p>
 
 ```
-│  app.js
+│  menu.js
 │  db.json
 │  index.html
 │  package.json
