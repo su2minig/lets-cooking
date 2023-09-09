@@ -94,33 +94,33 @@ lets-cooking
 |메인페이지|
 |------|
 |<img src="https://github.com/su2minig/lets-cooking/assets/141402694/df3c2cf3-9cf3-401c-839b-10bff5754d00">|
+|<p align="center"> 페이지이동</p> |
+|<p align="center"> <img src="https://github.com/su2minig/lets-cooking/assets/141402694/9333239d-791e-4130-8b4d-edc6d28d6b1a"> </p>|
+| <p align="center"> chatgpt요리사 </p> |
+| <p align="center"> <img src="https://github.com/su2minig/lets-cooking/assets/141402694/d5e9b6e8-194e-4534-ae26-c4243c1ef7d5"> </p> |
 
 | 리스트 페이지 |
 |---|
 | <img src="https://github.com/su2minig/lets-cooking/assets/141402694/5cd2bed9-a543-4e51-8abb-3dd8b195d365"> |
-| <img src="https://github.com/su2minig/lets-cooking/assets/141402694/14bae50c-767e-48e8-b7b3-47759de14ac6"> |
+| <p align="center"> 음식리스트페이지 </p> |
+| <p align="center"> <img src="https://github.com/su2minig/lets-cooking/assets/141402694/e99acd8c-6e6c-4b22-ab11-437201d2ee04"> </p> |
+
 
 | 레시피 페이지 |
 |---|
 |<img src="https://github.com/su2minig/lets-cooking/assets/141402694/e0967a2f-adea-40c6-aa3e-419ed7c4ef99">|
+| <p align="center"> 레시피페이지 </p> |
+| <p align="center"> <img src="https://github.com/su2minig/lets-cooking/assets/141402694/57c92f9f-b684-4d5d-b06d-d6a5e51037eb"> </p> |
 
 ## 구현 기능
 
-| 페이지이동 |
-|---|
-| <img src="https://github.com/su2minig/lets-cooking/assets/141402694/9333239d-791e-4130-8b4d-edc6d28d6b1a"> |
 
-|  chatgpt요리사  |
-|---|
-|  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/d5e9b6e8-194e-4534-ae26-c4243c1ef7d5">  |
 
-|  음식리스트페이지  |
-|---|
-|  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/e99acd8c-6e6c-4b22-ab11-437201d2ee04">  |
 
-|  레시피페이지  |
-|---|
-|  <img src="https://github.com/su2minig/lets-cooking/assets/141402694/57c92f9f-b684-4d5d-b06d-d6a5e51037eb">  |
+
+
+
+
 
 ## 개발하며
 
