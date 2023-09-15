@@ -6,23 +6,19 @@ p{
     margin: 10px 0 10px 5px;
 }
 
-.GPT_answer{
+.recipe-table{
     width: 800px;
     height: 400px;
     background-color: white;
     border-radius: 10px;
 }
-.gpt_ingredients,
-.ingredients{
-    border-bottom: 1px solid #ddd;
-}
 
-.gpt_ingredients,
-.gpt_recipe {
+.ingredients,
+.recipe {
     width: 100px;
 }
-.ingredients,
-.recipe{
+.ingredients-info,
+.recipe-info{
     text-align: left;
     border-radius: 10px;
     border: 1px solid #ddd;

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/save.css">
+    <title>Save</title>
+</head>
+<body>
+    <header class="layout-header">
+        <h1 class="index-h1"><a href="./index.html">Let's cooking</a></h1>
+        
+        <div>
+            <a class="menu-type" href="./recipe/list.html" style="font-weight: bold; font-family: 'Cafe24ClassicType-Regular';">recipe</a>
+            <a class="savepage" href="./index.html" style="font-weight: bold; font-family: 'Cafe24ClassicType-Regular';">save</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- 불러오기 클릭시 저장된 목록 불러오는 페이지 -->
+        <div id="main-div">
+        <table class="save-table">
+            <thead>
+            <tr>
+                <th></th>
+                <th>레시피</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <!-- 저장된 내용이 없을 때 뜨는 문구 -->
+                <td id="none" colspan="3">저장된 내용이 없습니다.</td>
+            </tr>
+            </tbody>
+        </table>
+        <button type="button" class="delete-all">전체삭제</button>
+        </div>
+        <div id="answer"></div>
+    </main>
+</body>
+</html>

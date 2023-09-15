@@ -1,0 +1,15 @@
+.save-table{
+    margin: auto;
+}
+button {
+    background-color: #f1a693;
+    border: 0;
+    border-radius: 5px;
+    height: 45px;
+    color: white;
+    transition: background-color 0.3s ease;
+    font: inherit;
+}
+button:hover {
+    background-color: #f1a693;
+}
