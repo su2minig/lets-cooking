@@ -43,7 +43,7 @@
 "sidedish":[
   {
     "id": 7,
-    "title": "Dakbokkeumtang",
+    "title": "dakbokkeumtang",
     "name": "닭볶음탕",
     "img": "https://raw.githubusercontent.com/su2minig/lets-cooking/main/img/%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95.webp"
   },
@@ -100,7 +100,7 @@
     },
     {
       "id": 7,
-      "title": "Dakbokkeumtang",
+      "title": "dakbokkeumtang",
       "name": "닭볶음탕",
       "img": "https://raw.githubusercontent.com/su2minig/lets-cooking/main/img/%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95.webp"
     },

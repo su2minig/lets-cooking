@@ -74,4 +74,8 @@ div .name{
     .main{
         margin-left: 15px;
     }
+    img{
+        width: 100px;
+        height: 100px;
+    }
 }
