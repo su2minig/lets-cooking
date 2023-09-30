@@ -3,6 +3,7 @@ const $button = document.querySelector(".search");
 const $recipe = document.querySelector(".recipe");
 const $ingredients = document.querySelector(".ingredients");
 const $savebtn = document.querySelector("#result-save")
+const tempUserForm = {}
 
 const ingredients_data = [];
 ingredients_data.push({
@@ -27,7 +28,7 @@ $button.addEventListener("click", (e) => {
     
     const contents = $input.value;
     if (!contents) {
-        return;//이 뒤에있는 코드는 실행되지 않습니다.
+        return;
     }
     ingredients_data.push({
         role: "user",
@@ -40,36 +41,15 @@ $button.addEventListener("click", (e) => {
     $input.value = "";
     ingredientsGPT();
     recipeGPT();
-    addfoodname(contents);
+    tempUserForm.food = contents;
     ingredients_data.splice(1, 1);
     recipe_data.splice(1, 1);
 });
 
 $savebtn.addEventListener("click", (e) => {
-
+    localStorage.setItem("info", JSON.stringify(tempUserForm))
+    alert('저장이 완료되었습니다')
 })
-
-function addfoodname(recipe){
-    const foodname = getfoodname()
-    foodname.push(recipe)
-    localStorage.setItem("title", JSON.stringify(foodname))
-}
-
-function getfoodname(){
-    const foodnamelist = localStorage.getItem("title")?JSON.parse(localStorage.getItem("title")):[]
-    return foodnamelist
-}
-
-function addrecipe(recipe){
-    const recipeinfo = getrecipe()
-    recipeinfo.push(recipe)
-    localStorage.setItem("recipe", JSON.stringify(recipeinfo))
-}
-
-function getrecipe(){
-    const recipelist = localStorage.getItem("recipe")?JSON.parse(localStorage.getItem("recipe")):[]
-    return recipelist
-}
 
 function ingredientsGPT() {
     fetch(url1, {
@@ -105,6 +85,6 @@ function recipeGPT() {
             "\n",
             "<br>"
             );
-        addrecipe(res.choices[0].message.content)
+        tempUserForm.recipe = res.choices[0].message.content;
         });
     }

@@ -1,39 +1,24 @@
-const myUl = document.querySelector("ul");
+const getrecipe = () => {
+    const localkeys = Object.keys(localStorage)
 
-function getrecipe(){
-    const recipes = localStorage.getItem("recipes")?JSON.parse(localStorage.getItem("recipes")):[]
-    return recipes
-}
-function getfoodname(){
-    const foodnamelist = localStorage.getItem("title")?JSON.parse(localStorage.getItem("title")):[]
-    return foodnamelist
-}
-function recipelist(text){
-    const myLi = document.createElement('li');
-    const btnOpen = document.createElement('button');
-    const btnOpenTxt = document.createTextNode('열기');
-    btnOpen.append(btnOpenTxt);
-    btnOpen.addEventListener('click',()=>{
-        document.querySelector('.black-bg').classList.add('show-modal')
-    });
-    const btnClose = document.querySelector('.close')
-    btnClose.addEventListener('click', () =>{
-        document.querySelector('.black-bg').classList.remove('show-modal')
-    })
-    const btnDel = document.createElement('button');
-    const btnDelTxt = document.createTextNode('삭제');
-    btnDel.append(btnDelTxt);
-    btnDel.addEventListener('click',()=>{
-        myLi.remove();
-    });
-    myLi.append('레시피: ',text, btnOpen, btnDel);
-    myUl.appendChild(myLi);
-}
+    const recipecontainer = document.querySelector('#title');
 
-function makerecipelist(){
-    const title = getfoodname();
-    title.forEach(recipe =>{
-        recipelist(recipe);
+    localkeys.forEach(item => {
+        const json = localStorage.getItem(item)
+        const value = JSON.parse(json)
+        const recipeitem = document.createElement('li');
+        recipeitem.innerText = value["food"]
+        recipecontainer.appendChild(recipeitem)
+
+        recipeitem.addEventListener('click', (e) => {
+            const $recipe = document.querySelector('#container')
+            document.querySelector('.black-bg').classList.add('show-modal')
+            $recipe.innerText = value['recipe']
+        })
+        const btnClose = document.querySelector('.close')
+        btnClose.addEventListener('click', () =>{
+            document.querySelector('.black-bg').classList.remove('show-modal')
+        })
     })
 }
-makerecipelist()
+getrecipe();
