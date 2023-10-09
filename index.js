@@ -42,12 +42,15 @@ $button.addEventListener("click", (e) => {
     ingredientsGPT();
     recipeGPT();
     tempUserForm.food = contents;
+    // console.log(ingredients_data)
     ingredients_data.splice(1, 1);
     recipe_data.splice(1, 1);
 });
 
 $savebtn.addEventListener("click", (e) => {
-    localStorage.setItem("info", JSON.stringify(tempUserForm))
+    const date = new Date();
+
+    localStorage.setItem(date.toISOString(), JSON.stringify(tempUserForm))
     alert('저장이 완료되었습니다')
 })
 
@@ -62,7 +65,7 @@ function ingredientsGPT() {
 })
     .then((res) => res.json())
     .then((res) => {
-    console.log(res);
+    // console.log(res);
     $ingredients.innerHTML =
         `<p>${res.choices[0].message.content}</p>`.replaceAll("\n", "<br>");
     });
@@ -80,11 +83,11 @@ function recipeGPT() {
 })
     .then((res) => res.json())
     .then((res) => {
-        console.log(res);
+        // console.log(res);
         $recipe.innerHTML = `<p>${res.choices[0].message.content}</p>`.replaceAll(
             "\n",
             "<br>"
             );
         tempUserForm.recipe = res.choices[0].message.content;
-        });
-    }
+    });
+}
