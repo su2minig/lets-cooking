@@ -70,8 +70,9 @@ lets-cooking
   
   >2-1 사용 기술 :
 
-><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-
+<a href="https://img.shields.io/badge/-HTML5-E34F26?logo=HTML5&logoColor=white" target="_blank"><img src="https://img.shields.io/badge/-HTML5-E34F26?logo=HTML5&logoColor=white"/></a>
+<a href="https://img.shields.io/badge/css3-1572B6?logo=css3&logoColor=white" target="_blank"><img src="https://img.shields.io/badge/css3-1572B6?logo=css3&logoColor=white"/></a>
+<a href="https://img.shields.io/badge/javascript-F7DF1E?logo=javascript&logoColor=white" target="_blank"><img src="https://img.shields.io/badge/javascript-F7DF1E?logo=javascript&logoColor=white"/></a>
 >2-2 배포 url : https://su2minig.github.io/lets-cooking/index.html
   
   
@@ -125,4 +126,5 @@ lets-cooking
 
 ## 개발하며
 
+미니 프로젝트를 해보며 기획이 중요하다는 것을 느끼게 되었고, 내가 만든 HTML에 CSS와 JS를 내가 원하는 형태로 적용시키는 것이 정말 힘들었습니다. 그래도 처음에 생각한 기능은 전부 구현에 성공하였고 작동도 제대로 되어 재미있었고 보람있는 첫 프로젝트였습니다.
 
